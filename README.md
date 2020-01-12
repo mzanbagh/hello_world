@@ -1,1 +1,1 @@
-# hello_world
+# This is an empty project
