@@ -1,6 +1,4 @@
-
 #pip instal html-testRunner
-#
 import unittest
 from selenium import webdriver
 import HtmlTestRunner  
@@ -8,7 +6,7 @@ import HtmlTestRunner
 class GOOGLE_SEARCH(unittest.TestCase):
 
     @classmethod
-    def setUpClass(cls):     
+    def setUpClass(cls):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(2)
         cls.driver.maximize_window()
